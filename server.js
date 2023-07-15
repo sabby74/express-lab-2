@@ -49,4 +49,6 @@ app.get('/magic/:prompt', (req,res) => {
     res.send(prompt + " ? " + `<h1>${randomElement}</h1>`)
 })
 
+
+
 app.listen(3000, () => console.log("Hello From Lab 2"));
